@@ -1,0 +1,5 @@
+// 解决eslit规则和format冲突的问题
+{
+    "semi": false,
+    "singleQuote": true
+}

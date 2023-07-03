@@ -1,0 +1,11 @@
+# 忽略目录
+build/
+tests/
+node_modules/
+src/
+
+# 忽略文件
+**/*-min.js
+**/*.min.js
+
+iconfont.js
