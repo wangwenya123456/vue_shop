@@ -7,6 +7,10 @@ import '@/assets/css/global.css'
 // 引入第三方图标样式
 import '@/assets/fonts/icon.css'
 import axios from 'axios'
+// 设置请求拦截器
+axios.interceptors.request.use((config) => {
+  return config;
+});
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
